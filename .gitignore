@@ -1,0 +1,18 @@
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+
+# Python cache and build output
+__pycache__/
+*.py[cod]
+
+# Processed pipeline output
+data/processed/
+
+# Large local datasets
+datasets/*.csv
+!datasets/upload_data.py
+!datasets/*.ipynb
